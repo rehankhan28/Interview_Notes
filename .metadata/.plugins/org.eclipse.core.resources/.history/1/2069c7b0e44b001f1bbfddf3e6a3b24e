@@ -1,0 +1,21 @@
+package com.collection;
+
+public class UniqueValue {
+	public static void main(String[] args) {
+
+	}
+}
+
+class Employee {
+	long id;
+	String name;
+	long age;
+	String gender;
+
+	public Employee(long id, String name, long age, String gender) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+}

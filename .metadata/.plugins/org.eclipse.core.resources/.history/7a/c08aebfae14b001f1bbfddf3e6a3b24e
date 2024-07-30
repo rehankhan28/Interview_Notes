@@ -1,0 +1,33 @@
+package com.oops;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+
+class OOPS {
+	public static void main(String[] args) {
+		List<Employee> list = new ArrayList<Employee>();
+		list.add(new Employee(1, "ABCD", 22, "Male"));
+		list.add(new Employee(1, "ABCD", 22, "Male"));
+		list.add(new Employee(2, "XYZ", 30, "Female"));
+		long out = list.stream().sorted(Comparator.comparing(Employee::getA)).
+		System.out.println();
+	}
+}
+
+class Employee {
+	// id,name,age gender
+	long id;
+	String name;
+	long age;
+	String gender;
+
+	public Employee(long id, String name, long age, String gender) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+}

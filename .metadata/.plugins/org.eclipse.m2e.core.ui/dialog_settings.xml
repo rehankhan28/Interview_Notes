@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\1. Micro Services\Kafka\springboot-kafka-course-main\springboot-kafka-tutorial"/>
+			<item value="D:\Udemy Project\spring-boot-microservices-initial-setup\product-service"/>
+			<item value="D:\Udemy Project\spring-boot-microservices-initial-setup\order-service"/>
+			<item value="D:\Udemy Project\spring-boot-microservices-initial-setup\inventory-service"/>
+			<item value="D:\Udemy Project\spring-petclinic-main"/>
+			<item value="D:\1. Micro Services\DurgaSoft Videos\Notes\microservices\MicroservicesWithTelecomProject\UI-Application"/>
+			<item value="D:\1. Micro Services\DurgaSoft Videos\Notes\microservices\MicroservicesWithTelecomProject\Micro-Friend"/>
+			<item value="D:\1. Micro Services\DurgaSoft Videos\Notes\microservices\MicroservicesWithTelecomProject\Micro-Customer"/>
+			<item value="D:\1. Micro Services\DurgaSoft Videos\Notes\microservices\MicroservicesWithTelecomProject\Micro-PlanDetails"/>
+			<item value="D:\1. Micro Services\DurgaSoft Videos\Notes\microservices\MicroservicesWithTelecomProject\Micro-Calldetails"/>
+			<item value="D:\1. Micro Services\DurgaSoft Videos\Notes\pms-rest"/>
+			<item value="D:\4. React\fullstack-react-and-springboot-main\employee-management-system\employee-management\ems-backend"/>
+			<item value="D:\1. Micro Services\DurgaSoft Videos\Notes\EMS"/>
+			<item value="D:\1. Micro Services\DurgaSoft Videos\Notes\CRM"/>
+			<item value="D:\Udemy Project\Ramesh\springboot-rest-api"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

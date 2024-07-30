@@ -1,0 +1,58 @@
+package com.collection;
+
+public class UniqueValue {
+	public static void main(String[] args) {
+
+	}
+}
+
+class Employee {
+	long id;
+	String name;
+	long age;
+	String gender;
+
+	public Employee(long id, String name, long age, String gender) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", age=" + age + ", gender=" + gender + "]";
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public long getAge() {
+		return age;
+	}
+
+	public void setAge(long age) {
+		this.age = age;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+}

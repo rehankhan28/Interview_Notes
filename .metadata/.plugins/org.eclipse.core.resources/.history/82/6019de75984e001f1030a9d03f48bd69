@@ -1,0 +1,11 @@
+package com.test;
+
+import java.util.Arrays;
+
+class Test {
+	public static void main(String arg[]) {
+		int a[] = { 12, 21, 232, 32, 43 };
+		int[] list = Arrays.stream(a).sorted().toArray();
+		System.out.println(list);
+	}
+}

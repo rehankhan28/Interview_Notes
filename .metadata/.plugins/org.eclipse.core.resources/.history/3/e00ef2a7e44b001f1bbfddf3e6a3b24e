@@ -1,0 +1,14 @@
+package com.collection;
+
+public class UniqueValue {
+	public static void main(String[] args) {
+
+	}
+}
+
+class Employee {
+	long id;
+	String name;
+	long age;
+	String gender;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.string.Frequency&apos; to &apos;Practice&apos;&#x0D;&#x0A;- Original project: &apos;Interview&apos;&#x0D;&#x0A;- Original element: &apos;com.string.Frequency&apos;&#x0D;&#x0A;- Renamed element: &apos;com.string.Practice&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Frequency&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.string{Frequency.java[Frequency" matchStrategy="1" name="Practice" qualified="false" references="true" similarDeclarations="false" stamp="1721133902282" textual="false" version="1.0"/>
+</session>

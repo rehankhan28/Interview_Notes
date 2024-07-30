@@ -1,0 +1,13 @@
+package com.features;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class FlatMapExample {
+	public static void main(String[] args) {
+		List<String> sentence = Arrays.asList("Hello World", "Java Class");
+		List<String> out = sentence.stream().flatMap(o -> Arrays.stream(o.split(" "))).collect(Collectors.toList());
+		System.out.println(out);
+	}
+}
